@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nikhitha Eluri</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nikhitha Eluri</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text text-center">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nikhitha Eluri</h1>
+        <div class="btn-container">
+            <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1zcYlVItyGBYB2uW_cbTO9nlb2yLEI9k9/view?usp=sharing')"
+          >
+            Download CV
+        </div>
+        <div id="socials-container">
+            <img
+              src="images\linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/nikhitha-eluri-b16634240'"
+            />
+            <img
+            src="images\github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/NIKHITHA13003'"
+          />
+        </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+            src="images\NikHITHA_ELURI_IMAGE.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="images\education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Bachelor of Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a dedicated and motivated professional with a strong passion for leveraging technology to solve complex challenges. My approach combines analytical thinking with a commitment to delivering high-quality results. I am adaptable, detail-oriented, and thrive in collaborative environments that encourage growth and innovation. I believe in continuously enhancing my skills and staying current with industry advancements.
+
+              I am driven by the opportunity to contribute meaningfully to organizational success through my work. I value teamwork and strive to bring fresh perspectives and efficient solutions to the table. My goal is to have a positive impact, both in terms of personal growth and the overall progress of the team and organization.
+            </p>
+          </div>
+        </div>
+    </div>
+    
+    </section>
+    <section id="education">
+      <h1 class="title">Education</h1>
+      <div class="education">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="education-sub-title">Bachelor of Technology</h2>
+            <h2 class="education-sub-title"></h3>Specilization Artificial Intelligence and Data Science</h2>
+            <h3 class="education-sub-title">Kakinada Institutions of Engineering and technology for Women's</h3>
+            <div class="article-container">
+                <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Python</h3>
+                      <p>Advanced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Java</h3>
+                      <p>Basics</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>c</h3>
+                    </div>
+                  </article> 
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Html</h3>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>CSS</h3>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Numpy</h3>
+                      
+                    </div>
+                  </article> 
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Pandas</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>NLP</h3>
+                      <p>Basics</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>MySQL</h3>
+                    </div>
+                  </article> 
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Excels</h3>
+                      <p>Basics</p>
+                    </div>
+                  </article> 
+                  <article>
+                    <img
+                      src="images\checkmark.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Power BI</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="images\project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="education project-title">Superstore Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/NIKHITHA13003/Analysis_of_superstore'"
+              >
+                Github
+            </button>
+        
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images\project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Sentiment Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/NIKHITHA13003/Sentiment_Analysis'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images\Multiple disease prediction.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Multiple Disease Prediction</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=' https://minipredictor-hkutqdwroo5g7uuooxg7ts.streamlit.app/'"
+              >
+                APP
+              </button>
+              
+            </div>
+          </div>  
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="images\Spamchecker.png"
+                    alt="Project 4"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Spam Mail Checker</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/NIKHITHA13003/AlertCheck'"
+                  >
+                    Github
+                  </button> 
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+              <img
+              src="images\HR Analytics.png"
+              alt="Project 5"
+              class="project-img"
+            />
+          </div>
+          <h2 class="education project-title">HR Dashboard</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='//www.novypro.com/profile_projects/nikhitha13'"
+            >
+              Dashboard
+          </button>
+      
+          </div>
+        </div>
+        
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="images\email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:nikieluri@gmail.com">nikieluri@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+            src="images\linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/nikhitha-eluri-b16634240">LinkedIn</a></p>
+        </div>
+        
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+         
+              
+    
